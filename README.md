@@ -1,4 +1,4 @@
-# Scheduling Groups Optimizer
+# Scheduling Groups Optimizer (Right now with messy docs and code, sorry...)
 
 A Python-based utility to discover optimal meeting groups based on individual weekly availability. It processes participant records and identifies time slots that maximize attendance for a fixed number of groups.
 
