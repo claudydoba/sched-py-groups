@@ -7,5 +7,6 @@ requires-python = ">=3.14"
 dependencies = [
     "ipython>=9.13.0",
     "jupyter>=1.1.1",
+    "more-itertools>=11.0.2",
     "pandas>=3.0.2",
 ]

@@ -59,3 +59,6 @@ def find_groups_greedy(df_bin: pd.DataFrame, n: int) -> tuple[list[dict], list[i
         remaining_ids = [idx for idx in remaining_ids if idx not in matched_ids]
         
     return groups, remaining_ids
+
+def eval_solution(df_bin: pd.DataFrame, solution: list[str]):
+    """Evaluación de la solución obtenida. La solución contiene una lista de grupos"""
